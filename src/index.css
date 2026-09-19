@@ -1,0 +1,29 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: oklch(14.5% 0 0deg);
+  background: white;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    color: white;
+    background: oklch(14.5% 0 0deg);
+  }
+}
