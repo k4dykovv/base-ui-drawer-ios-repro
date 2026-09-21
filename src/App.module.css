@@ -68,7 +68,7 @@
   position: fixed;
   min-height: 100dvh;
   inset: 0;
-  background-color: black;
+  background-color: white;
   opacity: calc(var(--backdrop-opacity) * (1 - var(--drawer-swipe-progress)));
   transition-duration: 450ms;
   transition-property: opacity;
